@@ -1,12 +1,17 @@
 <?php
 
 namespace App\Providers;
-
+use Illuminate\Auth\Notifications\VerifyEmail;
+use Illuminate\Notifications\Messages\MailMessage;
 // use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\URL;
+use Carbon\Carbon;
 
 class AuthServiceProvider extends ServiceProvider
 {
+    
+    
     /**
      * The model to policy mappings for the application.
      *
@@ -18,9 +23,14 @@ class AuthServiceProvider extends ServiceProvider
 
     /**
      * Register any authentication / authorization services.
-     */
-    public function boot(): void
-    {
-        //
-    }
+     
+    * @return void
+ */
+public function boot()
+{
+    //
+    
+
+}
+    
 }

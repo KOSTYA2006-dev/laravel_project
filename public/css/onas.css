@@ -1,0 +1,37 @@
+.obo_nas {
+    max-width: 620px;
+    padding-top: 130px;
+    margin-left: 28%;
+  }
+  .promo_text {
+    font: 14px/1.43em Arial, sans-serif;
+  }
+  
+.statistika {
+    padding-top: 42px;
+    position: relative;
+    box-sizing: inherit;
+  }
+  .promo_text3 {
+    font: 700 22px/1em 'ProximaNovaCond', Arial, sans-serif;
+  }
+  .pade_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  .list_item {
+    width: 50%;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 1.43;
+  }
+  
+.promo-page__item-title {
+    font: normal 48px/22px 'ProximaNovaCond', Arial, sans-serif;
+    margin: 21px 0 30px;
+  }
+  .promo-page__measure {
+    line-height: 22px;
+    font-size: 36px;
+  }
